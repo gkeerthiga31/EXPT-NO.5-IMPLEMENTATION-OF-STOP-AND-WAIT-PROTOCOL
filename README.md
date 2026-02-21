@@ -16,7 +16,9 @@ Step 7: Create the duplex-link between the nodes including the delay time, bandw
 Step 8: Set a tcp connection for source node. Step 9: Set the destination node using tcp sink.
 Step 10: Set the window size and the packet size for the tcp. Step 11: Set up the ftp over the tcp connection.
 Step 12: Define the plot window and finish procedure.
-Step 13: In the definition of the finish procedure declare the global variables. Step 14: Close the trace file and namfile and execute the network animation file. Step 15: At the particular time call the finish procedure.
+Step 13: In the definition of the finish procedure declare the global variables. 
+Step 14: Close the trace file and namfile and execute the network animation file. 
+tep 15: At the particular time call the finish procedure.
 Step 16: Stop the program.
  
 # PROGRAM
@@ -54,7 +56,6 @@ $ns at 0.56 "$ns trace-annotate \"Send Packet_1\""
 $ns at 0.79 "$ns trace-annotate \"Receive Ack_1\""
 $ns at 0.99 "$ns trace-annotate \"Send Packet_2\""
 $ns at 1.23 "$ns trace-annotate \"Receive Ack_2\""
- 
 $ns at 1.43 "$ns trace-annotate \"Send Packet_3\""
 $ns at 1.67 "$ns trace-annotate \"Receive Ack_3\""
 $ns at 1.88 "$ns trace-annotate \"Send Packet_4\""
